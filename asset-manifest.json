@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/baf-museum-app/static/css/main.659d79f1.chunk.css",
+    "main.js": "/baf-museum-app/static/js/main.f32d299f.chunk.js",
+    "main.js.map": "/baf-museum-app/static/js/main.f32d299f.chunk.js.map",
+    "runtime-main.js": "/baf-museum-app/static/js/runtime-main.87aac5c9.js",
+    "runtime-main.js.map": "/baf-museum-app/static/js/runtime-main.87aac5c9.js.map",
+    "static/css/2.8efe3166.chunk.css": "/baf-museum-app/static/css/2.8efe3166.chunk.css",
+    "static/js/2.6fdb51d0.chunk.js": "/baf-museum-app/static/js/2.6fdb51d0.chunk.js",
+    "static/js/2.6fdb51d0.chunk.js.map": "/baf-museum-app/static/js/2.6fdb51d0.chunk.js.map",
+    "static/js/3.cb2be955.chunk.js": "/baf-museum-app/static/js/3.cb2be955.chunk.js",
+    "static/js/3.cb2be955.chunk.js.map": "/baf-museum-app/static/js/3.cb2be955.chunk.js.map",
+    "index.html": "/baf-museum-app/index.html",
+    "static/css/2.8efe3166.chunk.css.map": "/baf-museum-app/static/css/2.8efe3166.chunk.css.map",
+    "static/css/main.659d79f1.chunk.css.map": "/baf-museum-app/static/css/main.659d79f1.chunk.css.map",
+    "static/js/2.6fdb51d0.chunk.js.LICENSE.txt": "/baf-museum-app/static/js/2.6fdb51d0.chunk.js.LICENSE.txt",
+    "static/media/Bangabandhu-Military-Museum-feature.bde373ad.jpg": "/baf-museum-app/static/media/Bangabandhu-Military-Museum-feature.bde373ad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87aac5c9.js",
+    "static/css/2.8efe3166.chunk.css",
+    "static/js/2.6fdb51d0.chunk.js",
+    "static/css/main.659d79f1.chunk.css",
+    "static/js/main.f32d299f.chunk.js"
+  ]
+}

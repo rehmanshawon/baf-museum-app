@@ -1,0 +1,74 @@
+<div>
+      <Desktop>
+        <div className="header">
+          <h1>BANGLADESH AIRFORCE BANGABANDHU MUSEUM</h1>
+        </div>
+        <div className="navigator">
+          <ul>
+            <li className="dropdown">
+              <a href="javascript:void(0)" className="dropbtn">
+                SPECIAL ATTRACTIONS
+              </a>
+              <div className="dropdown-content">
+                <a href="#">
+                  Birsreshtho Flight Lieutenant Matiur Rahman Holography Theater
+                </a>
+                <a href="#">VR Simulator</a>
+                <a href="#">Sky TV</a>
+                <a href="#">Kilo Flight MiniCinema</a>
+              </div>
+            </li>
+            <li>
+              <a href="#news">WALKTHROUGH</a>
+            </li>
+          </ul>
+        </div>
+      </Desktop>
+      <Tablet>Tablet</Tablet>
+      <Mobile>
+        <div className="header">
+          <h1>BANGLADESH AIRFORCE BANGABANDHU MUSEUM</h1>
+        </div>
+        <div className="navigator">
+          <ul>
+            <li>
+              <a href="#home">VISIT</a>
+            </li>
+            <li>
+              <a href="#news">GALLERIES</a>
+            </li>
+            <li className="dropdown">
+              <a href="javascript:void(0)" className="dropbtn">
+                ARTIFACTS
+              </a>
+              <div className="dropdown-content">
+                <a href="#">Aircraft</a>
+                <a href="#">Eng and Hub</a>
+                <a href="#">Armament</a>
+                <a href="#">Radar and SAM</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </Mobile>
+      <Default>
+        <div></div>
+      </Default>
+    </div>
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 992 });
+  return isDesktop ? children : null;
+};
+const Tablet = ({ children }) => {
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
+  return isTablet ? children : null;
+};
+const Mobile = ({ children }) => {
+  const isMobile = useMediaQuery({ minWidth: 360, maxWidth });
+  return isMobile ? children : null;
+};
+const Default = ({ children }) => {
+  const isNotMobile = useMediaQuery({ minWidth: 768 });
+  return isNotMobile ? children : null;
+};
+import { useMediaQuery } from "react-responsive";

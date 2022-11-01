@@ -1,0 +1,198 @@
+a:link {
+  color: rgb(66, 66, 66);
+}
+a:visited {
+  color: rgb(26, 26, 26);
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+a:active {
+  color: rgb(0, 0, 0);
+}
+.divNavigation {
+  z-index: 1020;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; /* Need a specific value to work */
+}
+.dropdown-toggle::after {
+  content: none;
+}
+#responsive-navbar-nav {
+  z-index: 1020;
+}
+#collasible-nav-dropdown::after {
+  border-bottom: 2px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.85s;
+  transition: opacity 0.35s, transform 0.85s;
+  -webkit-transform: scale(0, 0.75);
+  transform: scale(0, 0.75);
+}
+#collasible-nav-dropdown:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+.nav-item .dropdown-menu {
+  background: #000000;
+}
+
+.nav-item .dropdown-item {
+  color: #ffffff;
+}
+
+.nav-item .dropdown-item:hover {
+  background: #131313;
+}
+
+.nav-item .dropdown-item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 2px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.85s;
+  transition: opacity 0.35s, transform 0.85s;
+  -webkit-transform: scale(0, 0.75);
+  transform: scale(0, 0.75);
+}
+
+.nav-item .dropdown-item:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.scrollContainer {
+  display: flex;
+  justify-content: center;
+}
+.drag-box {
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.drag-box::-webkit-scrollbar {
+  display: none;
+}
+.menuText {
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.menuText:hover {
+  text-decoration: underline;
+}
+button {
+  float: left;
+}
+.right-arrow {
+  position: absolute;
+
+  right: 0px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  font-size: 2rem;
+}
+.right-arrow-hidden {
+  display: none;
+}
+.left-arrow {
+  position: absolute;
+
+  left: 0px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  font-size: 2rem;
+}
+.left-arrow-hidden {
+  display: none;
+}
+.Children {
+  width: 100%;
+  overflow-x: hidden;
+}
+fadeRight {
+  position: absolute;
+
+  z-index: 5;
+  right: 0px;
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.9) 100%
+  );
+}
+fadeLeft {
+  position: absolute;
+
+  z-index: 5;
+  left: 0px;
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.9) 100%
+  );
+}
+.home {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; /* Need a specific value to work */
+}
+h1,
+h2,
+h3,
+h4 {
+  font: 18px/1.33 Montserrat, Verdana, sans-serif;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.vr {
+  border-left: 1px solid rgb(209, 209, 209);
+  height: 100px;
+}
+
+.foot-social-links {
+  background-color: transparent;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+  margin-right: 10px !important;
+  padding: 0 !important;
+}

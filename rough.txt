@@ -1,0 +1,26 @@
+<div className="container">
+        <div className="header">
+          <h1>BANGLADESH AIRFORCE AND BANGABANDHU MUSEUM</h1>
+        </div>
+        <div className="navigator">
+          <ul>
+            <li>
+              <a href="#home">Visit</a>
+            </li>
+            <li>
+              <a href="#news">Galleries</a>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">
+                Artifacts
+              </a>
+              <div class="dropdown-content">
+                <a href="#">Aircraft</a>
+                <a href="#">Eng and Hub</a>
+                <a href="#">Armament</a>
+                <a href="#">Radar and SAM</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
